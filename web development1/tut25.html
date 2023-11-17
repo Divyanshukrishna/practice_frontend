@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place the CSS</title>
+    <style>
+        .container{
+         border: 2px solid khaki;
+         background-color: blanchedalmond;
+         height: 3444px;
+        }
+        /* CSS position: static(default),absolute,relative,fixed,sticky */
+        .box{
+             display: inline-block; 
+          border: 2px solid rgb(193, 173, 212);
+          width: 150px;
+          height: 150px;
+          margin: 2px;
+        }
+        #box3{
+            position: static;
+            top: 34px;
+            left: 34px;
+        }
+        #box2{
+            position: fixed;
+            bottom: 4px;
+            right: 5px;
+        }
+        #box1{
+          positon:sticky;
+          top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">Chat with us</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>

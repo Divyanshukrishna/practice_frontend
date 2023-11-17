@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heigh,Width,border and background</title>
+    <style>
+         #firstpara{
+            background-color: red;
+            height: 190px;
+            width: 190px;
+            border: 4px solid green;
+            /* border-width: 4px;
+            border-color:blue;
+            border-style:solid; */
+            border-radius: 10px;
+            background-image: url("https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aHRtbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");  
+             background-repeat: repeat-y;
+
+         }
+         #secondpara{
+            background-color: red;
+            height: 190px;
+            width: 190px;
+            border-top:rgb(255, 255, 0);
+            border-bottom: gray;
+            border-left: rgb(232, 16, 52); 
+            border-right: rgb(12, 242, 12);
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 25px;
+            background-image: url("https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aHRtbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+            background-repeat: repeat-x;
+        }
+         #thirdpara{
+            background-color: blue;
+            height: 1190px;
+            width: 1190px;
+            background-color: black;
+            background-image: url("https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aHRtbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+            border: 2px solid red;
+            background-repeat: no-repeat;
+            background-position: center bottom 25px;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is heading</h3>
+    <p id="firstpara"> This  is a first paragraph </p>
+    <h3>This is second heading</h3>
+    <p id="secondpara"> This  is a  second paragraph </p>
+    <h3>This is third heading</h3>
+    <p id="thirdpara"> This  is a third paragraph </p>
+</body>
+</html>
